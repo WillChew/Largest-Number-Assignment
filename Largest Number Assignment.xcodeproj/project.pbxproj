@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2101971420AEDDF200FCCC12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2101971320AEDDF200FCCC12 /* main.m */; };
+		2101974B20B2C81800FCCC12 /* ArrayUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2101974A20B2C81800FCCC12 /* ArrayUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2101971020AEDDF200FCCC12 /* Largest Number Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Largest Number Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2101971320AEDDF200FCCC12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2101974920B2C81800FCCC12 /* ArrayUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUtility.h; sourceTree = "<group>"; };
+		2101974A20B2C81800FCCC12 /* ArrayUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2101971320AEDDF200FCCC12 /* main.m */,
+				2101974920B2C81800FCCC12 /* ArrayUtility.h */,
+				2101974A20B2C81800FCCC12 /* ArrayUtility.m */,
 			);
 			path = "Largest Number Assignment";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2101974B20B2C81800FCCC12 /* ArrayUtility.m in Sources */,
 				2101971420AEDDF200FCCC12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

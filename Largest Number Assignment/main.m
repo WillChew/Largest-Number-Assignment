@@ -7,19 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ArrayUtility.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSNumber *largest = [NSNumber numberWithInt:0];
-        NSArray *numbers = @[@3, @7, @10, @25, @9];
-        //        NSLog(@"%@",numbers[0]);
         
-        for (int i = 0; i < numbers.count; i++) {
-            if (numbers[i] > largest) {
-                largest = numbers[i];
-            }
-        }
-        NSLog(@"largest number in array: %@", largest);
+        ArrayUtility *largestNumber = [[ArrayUtility alloc]init];
+        
+        NSNumber *result = [largestNumber largestNumber:@[@10, @40, @30]];
+        NSLog(@"The largest number is : %@", result);
+        
+        
+        
     }
     return 0;
 }
